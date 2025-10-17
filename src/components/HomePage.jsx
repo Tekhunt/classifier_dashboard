@@ -59,9 +59,9 @@ function HomePage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-16">
       <div className="text-center text-white space-y-8">
-        <h1 className="text-6xl font-bold mb-4">Welcome to SentiAnalyzer</h1>
+        <h1 className="text-6xl font-bold mb-4">Welcome to ClassifyAI</h1>
         <p className="text-2xl opacity-90 mb-8">
-          Analyze customer reviews and understand sentiment patterns with AI
+          Analyze customer reviews and classify sentiments with cutting-edge AI
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
