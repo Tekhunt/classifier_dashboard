@@ -1,7 +1,5 @@
-// services/api.js - API Service Layer
-// const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
-
-const API_BASE_URL = 'http://localhost:8000/api';  // No env needed
+// const API_BASE_URL = 'http://localhost:8000/api';  // No env needed
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
 
 // Helper function for API calls
 const apiCall = async (endpoint, options = {}) => {
