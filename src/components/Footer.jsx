@@ -11,7 +11,7 @@ function Footer() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <p className="text-gray-600 mb-2">
-              © {new Date().getFullYear()} Midterm Classifier. Built with ❤️.
+              © {new Date().getFullYear()} Tekhunt Classifier. Built with ❤️.
             </p>
             <p className="text-sm text-gray-500">
               Analyze sentiments, uncover insights.

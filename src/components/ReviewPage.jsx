@@ -12,6 +12,8 @@ function ReviewsPage() {
   const [filter, setFilter] = useState('all');
   const [page, setPage] = useState(1);
   const isFetchingRef = useRef(false);  // Ref to track ongoing fetch
+  const [clearing, setClearing] = useState(false);
+
 
   // Memoized fetch with guard
   const fetchReviews = useCallback(async () => {
@@ -70,11 +72,14 @@ function ReviewsPage() {
           <h2 className="text-3xl font-bold text-gray-800">All Reviews</h2>
           {reviews.length > 0 && (
             <button
-              onClick={clearReviews}
+              // onClick={clearReviews}
+              onClick={() => {
+                setClearing(!clearing);
+              }}
               className="px-4 py-2 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              disabled={loading}
+              // disabled={loading}
             >
-              Clear All
+              {clearing ? '😅 Clearing...' : 'Clear All'}
             </button>
           )}
         </div>
