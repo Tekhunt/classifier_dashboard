@@ -1,11 +1,17 @@
 # ClassifyAI Frontend
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Home Page
+<img width="942" height="816" alt="Screenshot 2025-10-26 at 12 41 59" src="https://github.com/user-attachments/assets/7c0d528c-9104-4fc0-90ec-182a5e0f22be" />
+
 [![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-orange)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-blueviolet)](https://tailwindcss.com/)
 
 ClassifyAI is a modern React-based web application for sentiment analysis of customer reviews. It allows users to upload text or CSV files, analyze sentiments using AI-powered APIs, visualize results in interactive dashboards, and manage review data. Built with a focus on responsiveness, performance, and ease of use, it integrates seamlessly with a FastAPI backend for real-time analysis.
+
+## DashBoard UI
+<img width="942" height="775" alt="Screenshot 2025-10-26 at 12 40 40" src="https://github.com/user-attachments/assets/37d1ed04-7380-4d28-ac1a-0861baa1bd96" />
+
 
 ## Features
 - **Single & Bulk Analysis**: Analyze individual reviews or upload CSV/TXT files for batch processing.
