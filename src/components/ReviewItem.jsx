@@ -18,9 +18,9 @@ function ReviewItem({ review }) {
     negative: '😞',
     neutral: '😐'
   };
-
+// border-l-4 ${sentimentColors[review.sentiment]}
   return (
-    <div className={`border-l-4 ${sentimentColors[review.sentiment]} p-6 rounded-lg hover:shadow-lg transition-all`}>
+    <div className={`p-6 rounded-lg shadow-lg hover:shadow-lg transition-all`}>
       <p className="text-gray-800 text-lg mb-4 leading-relaxed">{review.text}</p>
       <div className="flex items-center justify-between flex-wrap gap-3">
         <div className="flex items-center space-x-3">

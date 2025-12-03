@@ -1,8 +1,5 @@
 # ClassifyAI Frontend
 
-## Home Page
-<img width="942" height="816" alt="Screenshot 2025-10-26 at 12 41 59" src="https://github.com/user-attachments/assets/7c0d528c-9104-4fc0-90ec-182a5e0f22be" />
-
 [![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-orange)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-blueviolet)](https://tailwindcss.com/)
